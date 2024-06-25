@@ -15,7 +15,7 @@ function countdown() {
 
     if (timeDifference < 0) {
         clearInterval(timerInterval);
-        document.getElementById("timer").innerHTML = "The date has passed!";
+        document.getElementById("timer").innerHTML = "GOAL Achieved";
     }
 }
 
